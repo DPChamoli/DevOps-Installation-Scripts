@@ -6,3 +6,6 @@ start TeamCity server as docker container
 	-v team_city_logs:/opt/teamcity/logs  \
 	-p 8111:8111 \
 	-d jetbrains/teamcity-server
+
+
+start TeamCity agent without docker volume mount
